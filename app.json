@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "quiz",
-    "slug": "quiz",
+    "name": "tarefas",
+    "slug": "tarefas",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,13 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.quiz"
+      "package": "com.anonymous.tarefas"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-localization"
+    ]
   }
 }
